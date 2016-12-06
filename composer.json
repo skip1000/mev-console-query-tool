@@ -1,0 +1,27 @@
+{
+    "name": "mev/console-query-tool",
+    "description": "Console tool wich provide unified interface different database drivers",
+    "type": "project",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "kolomiets",
+            "email": "kolomiets.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Mev\\": "./src"
+        }
+    },
+    "require": {
+        "symfony/console": "^3.2",
+        "myclabs/php-enum": "^1.5",
+        "mongodb/mongodb": "^1.0",
+        "phplucidframe/console-table": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
